@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#### Advanced Hyprland Installation Script by ####
-#### Shell Ninja ( https://github.com/shell-ninja ) ####
-
 # color defination
 red="\e[1;31m"
 green="\e[1;32m"
@@ -49,7 +46,7 @@ echo
 # Clone the repository and log the output
 if [[ ! -d "$parent_dir/.cache/hyprconf-v2" ]]; then
     msg act "Cloning hyprconf-v2 dotfiles repository..."
-    git clone --depth=1 https://github.com/shell-ninja/hyprconf-v2.git "$parent_dir/.cache/hyprconf-v2" 2>&1 | tee -a "$log" &> /dev/null
+    git clone --depth=1 https://github.com/tarangverma-India/WavesHyprland-V2.git "$parent_dir/.cache/hyprconf-v2" 2>&1 | tee -a "$log" &> /dev/null
 fi
 
 sleep 1
