@@ -92,7 +92,7 @@ sleep 1
 [[ ! "$(pwd)" == "$HOME" ]] && cd "$HOME"
 
 printf "${green}=>${end} Preparing the installation scripts...\n"
-git clone --depth=1 https://github.com/tarangverma-India/WavesHyprland.git &> /dev/null
+git clone --depth=1 https://github.com/tarangverma-India/Hyprland-configs.git &> /dev/null
 
 if [[ -d "hyprconf-install" ]]; then
     printf "${cyan}::${end} Starting the main script..\n" && sleep 1 && clear
